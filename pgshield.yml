@@ -17,7 +17,7 @@
         pgrole: "oauth"
         intport: "4181"
         extport: "4181"
-        image: "thomseddon/traefik-forward-auth"
+        image: "dawidziaja/openvpn"
 
   # CORE (MANDATORY) ############################################################
     - name: CronJob Role
