@@ -15,7 +15,7 @@
       set_fact:
         int1: '4181'
         ext1: '4181'
-        image: 'dawidziaja/openvpn'
+        image: 'thomseddon/traefik-forward-auth:2-arm64'
 
     # CORE (MANDATORY) ############################################################
     - name: CronJob Role
